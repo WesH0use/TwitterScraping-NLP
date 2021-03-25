@@ -1,17 +1,17 @@
 # deployment
-streamlit
+streamlit==0.69.0
 
 # packaging
 pip>=9
 setuptools>=26
-twine
+twine==3.3.0
 wheel>=0.29
 
 # data science
-numpy
-pandas
-scikit-learn
-nltk
+numpy==1.19.5
+pandas==1.2.0
+scikit-learn==0.22
+nltk==3.5
 
 
 # tests/linter
@@ -26,7 +26,7 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
-tweepy
+tweepy==3.10.0
 
 # utilities
 six>=1.14
